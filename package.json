@@ -16,7 +16,7 @@
     "round",
     "robin"
   ],
-  "author": "Marcin Sztolcman",
+  "author": "Marcin Sztolcman <marcin@urzenia.net> (http://urzenia.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mysz/node-list-cycler/issues"
