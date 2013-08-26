@@ -1,12 +1,26 @@
 {
-  "author": "Marcin Sztolcman ",
   "name": "list-cycler",
-  "description": "Node module to cycle through list",
   "version": "0.0.1",
-  "repository": {
-    "url": "https://github.com/mysz/node-cycle.git"
+  "description": "Inifinity cycle through list.",
+  "main": "lib/cycler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "./lib/cycler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysz/node-list-cycler.git"
+  },
+  "keywords": [
+    "cycle",
+    "ring",
+    "round",
+    "robin"
+  ],
+  "author": "Marcin Sztolcman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysz/node-list-cycler/issues"
+  },
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
