@@ -8,6 +8,11 @@ Install:
 
 ```npm install list-cycler```
 
+Current stable version:
+-----------------------
+
+1.0.0
+
 Examples:
 ---------
 
