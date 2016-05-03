@@ -1,7 +1,7 @@
 {
   "name": "list-cycler",
   "version": "1.0.0",
-  "description": "Inifinity cycle through list.",
+  "description": "Infinitely cycle through list.",
   "main": "lib/cycler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
