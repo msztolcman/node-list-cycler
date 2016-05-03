@@ -20,6 +20,17 @@ Iterate from beginning of list:
 ```javascript
 var cycler = require("list-cycler"),
     colors = cycler(['red', 'green', 'blue']),
+    i=6;
+while (--i) {
+    console.log(i + '. <span color="' + colors.current() + '">' + colors.current() + '</span>');
+    colors.cycle();
+}
+```
+
+Or using other API:
+```javascript
+var cycler = require("list-cycler"),
+    colors = cycler(['red', 'green', 'blue']),
     color,
     i=6;
 while (--i) {
@@ -33,11 +44,10 @@ from index 1 (letter 's') - look at second argument to *cycler*:
 ```javascript
 var cycler = require('list-cycler'),
     colors = cycler(['red', 'green', 'blue'], 1),
-    color,
     i=6
 
 while (--i) {
-    color = colors.next();
-    console.log(i + '. <span color="' + color + '">' + color + '</span>');
+    console.log(i + '. <span color="' + colors.current() + '">' + colors.current() + '</span>');
+    colors.cycle();
 }
 ```
